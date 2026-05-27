@@ -1,4 +1,5 @@
 import pandas as pd
+import matplotlib.pyplot as plt
 
 # FUNÇÃO - CORRIGIR NOME DE LINHAS 
 def corrigir_coluna(df,
@@ -42,3 +43,33 @@ def converter_para_numerico(df,coluna):
 def remover_nulos_coluna(df,coluna):
     
     return df.dropna(subset=[coluna])
+
+
+
+# FUNÇÃO - CRIAR GRÁFICOS
+def criar_grafico_barras(dados,
+                         titulo,
+                         xlabel,
+                         ylabel,
+                         rotacao=0):
+    
+    plt.figure(figsize=(10,5))
+    
+    dados.plot(kind='bar')
+    
+
+    plt.title = titulo
+    plt.xlabel = xlabel
+    plt.ylabel = ylabel
+    plt.xticks(rotation=rotacao)
+    
+    plt.grid(axis='y',
+             linestyle='--',
+             alpha=0.3)
+    
+    
+    
+    
+    plt.tight_layout()
+    
+    plt.show()
