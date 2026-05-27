@@ -1,4 +1,4 @@
-ClienteID;Origem;Idade;Sal�rio Anual (R$);Nota (1-100);Profiss�o;Experi�ncia Trabalho;Tamanho Fam�lia;
+ClienteID;Origem;Idade;Salario Anual (R$);Nota (1-100);Profissao;Experiencia Trabalho;Tamanho Familia;
 1;Normal;19;15000;39;Sa�de;1;4;
 2;Normal;21;35000;81;Engenheiro;3;3;
 3;Promo��o;20;86000;2;Engenheiro;1;1;
